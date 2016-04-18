@@ -53,9 +53,9 @@ model1_intercept = model1.intercept_
 # poly1_plot = sns.jointplot(x = "sqft_living", y = "price", data = sales)
 # sns.lmplot(x = "sqft_living", y = "price", data = sales)
 
-sales_set1 = pd.read_csv('../datasets/week3/wk3_kc_house_set_1_data.csv', dtype = dtype_dict)
-sales_set2 = pd.read_csv('../datasets/week3/wk3_kc_house_set_2_data.csv', dtype = dtype_dict)
-sales_set3 = pd.read_csv('../datasets/week3/wk3_kc_house_set_3_data.csv', dtype = dtype_dict)
-sales_set4 = pd.read_csv('../datasets/week3/wk3_kc_house_set_4_data.csv', dtype = dtype_dict)
+sales_set1 = pd.read_csv('../datasets/regression-week3/wk3_kc_house_set_1_data.csv', dtype = dtype_dict)
+sales_set2 = pd.read_csv('../datasets/regression-week3/wk3_kc_house_set_2_data.csv', dtype = dtype_dict)
+sales_set3 = pd.read_csv('../datasets/regression-week3/wk3_kc_house_set_3_data.csv', dtype = dtype_dict)
+sales_set4 = pd.read_csv('../datasets/regression-week3/wk3_kc_house_set_4_data.csv', dtype = dtype_dict)
 
 plotandlinear(sales_set1, 15)
