@@ -114,3 +114,5 @@ poly_test = polynomial_dataframe(test['sqft_living'], 15)
 rss = sum((test['price'] - model.predict(poly_test)) ** 2)
 
 print("rss is {:e}".format(rss))
+
+
